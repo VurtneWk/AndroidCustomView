@@ -21,6 +21,8 @@ val myTextView = MyTextView(this)
 
 ### 第两个参数AttributeSet
 
+实例是自定义属性，自带属性也会使用AttributeSet
+
 ```xml
 <!--attrs.xml-->
 <?xml version="1.0" encoding="utf-8"?>
@@ -134,9 +136,9 @@ init {
     }
 ```
 
-## 为什么ScrollView嵌套ListView显示不全？
+### 为什么ScrollView嵌套ListView显示不全？
 
-### 原因：
+#### 原因：
 
 ```java
 public class ScrollView extends FrameLayout
@@ -185,7 +187,7 @@ protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec){
 
 所以当`UNSPECIFIED`时，只会显示一个 `childHeight` 的高度
 
-### 解决：
+#### 解决：
 
 ```kotlin
 class MyListView @JvmOverloads constructor(
