@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidCustomView"
 include(":app")
+include(":chapter01")
