@@ -16,9 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
     }
 }
 
 rootProject.name = "AndroidCustomView"
 include(":app")
 include(":chapter01")
+include(":chapter02")
