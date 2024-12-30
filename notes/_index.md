@@ -4,7 +4,7 @@
 
 #### [02.自定义View入门 - 自定义TextView](./Chapter02.md)
 
-03.自定义View - 仿QQ运动步数进度效果
+#### [03.自定义View - 仿QQ运动步数进度效果](./Chapter03.md)
 
 
 

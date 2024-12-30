@@ -93,7 +93,7 @@ val baseline = height / 2 - (fontMetrics.ascent + fontMetrics.descent) / 2
 canvas.drawText(mText, paddingLeft.toFloat(), baseline, mPaint)
 ```
 
-## QA1
+## QA
 
 #### Q：
 
