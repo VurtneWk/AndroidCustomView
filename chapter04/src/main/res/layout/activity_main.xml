@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.vurtnewk.chapter04.ColorTrackTextView
+        android:id="@+id/colorTrackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hello World!"
+        android:textSize="18sp"
+        app:changeColor="@android:color/holo_red_light"
+        app:originColor="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/btn_ltr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="left to right"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="right to left"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_to_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to viewpager"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
